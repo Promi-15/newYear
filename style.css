@@ -9,9 +9,12 @@ header {
     height: 808px;
 
 }
+
 .img{
     display: flex;
     justify-content: end;
+   
+   
 }
 .text{
     width: 500px;
@@ -53,22 +56,20 @@ margin-left: 350px;
 .one{
     padding-top: 60px;
 }
-.im{
-   
-    width: 451px;
-    height: 898px;
-    padding-left:80px ;
+.child{
+   width: 100%;
+   height: 100%;
     background-image: url(images/gradient2.png);
     background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-  
+    background: repeating-radial-gradient(circle,cover ,#F15B22 ,#F15B22);
+    background-position: center;
+
 }
 .manus{
     display: flex;
     justify-content: space-between;
     padding-left: 60px;
-   
+   margin-bottom: 120px;
     
 }
 .text2{
@@ -155,16 +156,21 @@ font-weight: 200;
 }
 .watch{
     background-image: url(images/watch.png);
-     background: linear-gradient(right,orange,transparent);
-    width: 1140px;
+    width: 1145px;
     height: 300px;
     margin-left: 180px;
     margin-top: 80px;
     background-repeat: no-repeat;
+    margin-bottom: 120px;
     
 
 }
-.watch h2{
+.child-watch{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,#F15B22,transparent);
+}
+.child-watch h2{
    font-size: 40px;
    color: white;
    font-weight: bold;
@@ -172,14 +178,14 @@ font-weight: 200;
    padding-top: 100px;
    padding-left: 80px;
 }
-.watch button{
+.child-watch button{
     
         margin-top: 10px;
-          padding: 20px;
-          color: #F15B22;
-          border-radius: 5px;
-          border: none;
-         background: #FFF;
+        padding: 20px;
+        color: #F15B22;
+        border-radius: 5px;
+        border: none;
+        background: #FFF;
         font-size: 20px;
         font-weight: 600;
         width: 150px;
@@ -187,5 +193,88 @@ font-weight: 200;
         text-align: center;
         margin-left: 85px;
     
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
+   
+}
+
+.foot{
+    background-color: black;
+    padding-top: 20px;
+    width: 1600px;
+    height: 577px;
+
+}
+.future h2{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 120px;
+    padding-left:  150px; 
+}
+.future p{
+    color: white;
+    font-size: 12px;
+    width: 480px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 20px;
+    padding-left:  150px; 
+}
+.future h3{
+    color: white;
+    margin-top: 20px;
+    padding-left:  150px; 
+    font-size: 12px;
+     font-weight: 400;
+    line-height: 26px; /* 162.5% */
+
+}
+ .facebook{
+   
+  margin-left: 145px;
+
+}
+.future img{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+.input h2{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    padding-right: 560px;
+
+}
+.form {
+    display: block;
+    margin-top: 120px;
+}
+.input input{
+    padding: 15px;
+    width: 170px;
+    height: 22px;
+   border:1px solid white ;
+   border-radius: 8px;
+   background-color: black;
+   margin-bottom: 25px;
+   color: #FFF;
+   
+}
+.form button{
+    width: 130px;
+   height: 50px;
+   border-radius: 8px;
+background: #FFF;
+color: #F15B22;
+padding: 5px;
+font-size: 15px;
+font-weight: 600;
+
 }
