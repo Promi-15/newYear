@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+header {
+    background-image: url(images/banner/banner1.png);
+    width: 1600px;
+    height: 808px;
+
+}
+.img{
+    display: flex;
+    justify-content: end;
+}
+.text{
+    width: 500px;
+    margin-top: 216px;
+    margin-right: 230px;
+    display: block;
+}
+.text h2{
+    
+    color:  #151414;
+    text-align: right;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.text p{
+color:  #444343;
+text-align: right;
+font-size: 12px;
+margin-left: 120px;
+font-weight: 100;
+line-height: 26px;
+}
+.btn{
+    margin-top: 10px;
+      padding: 20px;
+      color: #FFF;
+      border-radius: 5px;
+      border: none;
+background: #F15B22;
+font-size: 20px;
+font-weight: 600;
+width: 150px;
+height: 60px;
+margin-left: 350px;
+
+}
+
+.one{
+    padding-top: 60px;
+}
+.im{
+   
+    width: 451px;
+    height: 898px;
+    padding-left:80px ;
+    background-image: url(images/gradient2.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  
+}
+.manus{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+   
+    
+}
+.text2{
+    margin-top: 170px;
+    gap: 24px;
+    padding-right: 290px;
+    padding-top: 170px;
+}
+.text2 h2{
+    color:  #151414;
+    font-size: 40px;
+
+   font-weight: bold;
+width: 288px;
+}
+.text2 p{
+    color:  #555454;
+width: 400px;
+font-size: 12px;
+
+font-weight: 200;
+line-height: 26px; /* 162.5% */
+}
+.text2 li{
+    color:   #555454;
+
+font-size: 12px;
+
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+list-style:none ;
+}
+li:before{
+    content: "\2714";
+    color:  rgb(47, 166, 47);
+    font-weight: 300;
+    padding: 5px;
+}
+.plans{
+    display: block;
+}
+.opt{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 120px;
+    margin-right:120px;
+    padding: auto;
+}
+.list h2{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+.options{
+    text-align: center;
+}
+.options h2{
+    color:  #151414;
+    text-align: center;
+    
+    font-size: 30px;
+   
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 10px;
+   
+}
+.options img{
+    width: 95px;
+height: 95px;
+text-align: right;
+
+
+}
+.options p{
+    color:  #737272;
+text-align: center;
+
+font-size: 20px;
+
+font-weight: 200;
+
+}
+.watch{
+    background-image: url(images/watch.png);
+     background: linear-gradient(right,orange,transparent);
+    width: 1140px;
+    height: 300px;
+    margin-left: 180px;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    
+
+}
+.watch h2{
+   font-size: 40px;
+   color: white;
+   font-weight: bold;
+   width: 600px;
+   padding-top: 100px;
+   padding-left: 80px;
+}
+.watch button{
+    
+        margin-top: 10px;
+          padding: 20px;
+          color: #F15B22;
+          border-radius: 5px;
+          border: none;
+         background: #FFF;
+        font-size: 20px;
+        font-weight: 600;
+        width: 150px;
+        height: 60px;
+        text-align: center;
+        margin-left: 85px;
+    
+    
+}
