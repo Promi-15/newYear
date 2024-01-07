@@ -57,13 +57,14 @@ margin-left: 350px;
     padding-top: 60px;
 }
 .back{
-    width: 525.929px;
-    height: 525.929px;
-    margin-top: 150px;
+    width: 502.945px;
+    height: 490.930px;
+    margin-top: 170px;
     border-radius: 523.929px;
     background-color: rgba(241, 91, 34, 0.20);
     align-items: center;
-   
+    margin-left: 26px;
+  
 }
 .fail{
     width: 551px;
